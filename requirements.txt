@@ -1,3 +1,4 @@
+pytgcalls
 aiofiles
 asyncio
 aiohttp
