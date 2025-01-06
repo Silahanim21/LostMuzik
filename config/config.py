@@ -220,13 +220,13 @@ autoclean = []
 
 # Images
 
-START_IMG_URL = getenv("START_IMG_URL", None)
+START_IMG_URL = getenv("START_IMG_URL", "https://envs.sh/sRR.jpg")
 
 PING_IMG_URL = getenv(
 
     "PING_IMG_URL",
 
-    "assets/Ping.jpeg",
+    "https://envs.sh/sRR.jpg",
 
 )
 
@@ -234,7 +234,7 @@ PLAYLIST_IMG_URL = getenv(
 
     "PLAYLIST_IMG_URL",
 
-    "assets/Playlist.jpeg",
+    "https://envs.sh/sRR.jpg",
 
 )
 
@@ -242,7 +242,7 @@ GLOBAL_IMG_URL = getenv(
 
     "GLOBAL_IMG_URL",
 
-    "assets/Global.jpeg",
+    "https://envs.sh/sRR.jpg",
 
 )
 
@@ -250,7 +250,7 @@ STATS_IMG_URL = getenv(
 
     "STATS_IMG_URL",
 
-    "assets/Stats.jpeg",
+    "https://envs.sh/sRR.jpg",
 
 )
 
